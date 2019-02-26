@@ -18,12 +18,12 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
+    "@babel/core": "^7.3.4",
     "@ember/jquery": "^0.6.0",
     "@ember/optional-features": "^0.7.0",
-    "@embroider/compat": "^0.0.5",
-    "@embroider/core": "^0.0.5",
-    "@embroider/webpack": "^0.0.5",
+    "@embroider/compat": "^0.0.6",
+    "@embroider/core": "^0.0.6",
+    "@embroider/webpack": "^0.0.6",
     "broccoli-asset-rev": "^3.0.0",
     "ember-ajax": "^4.0.2",
     "ember-cli": "~3.7.0",
