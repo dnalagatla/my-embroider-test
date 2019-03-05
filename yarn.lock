@@ -774,10 +774,10 @@
     ember-cli-babel "^6.12.0"
     ember-cli-htmlbars-inline-precompile "^1.0.0"
 
-"@embroider/compat@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@embroider/compat/-/compat-0.0.6.tgz#16047a016f8a25fd4050fd66b61206c7727ee1f5"
-  integrity sha512-Hu/GkVj8pqcyI74k68TkG9kq9MWxmwVQ9rOo8UvUitUdOhqamFq51dXpl28AwTUxkrmWSxQSEVnvl2sI3t+d9A==
+"@embroider/compat@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@embroider/compat/-/compat-0.0.8.tgz#1ba16bcc6fd183b1be996d7279ed42b624ab16d4"
+  integrity sha512-YheY907TphWDaFRZd6yoCWRXsBWSnyDClYlOvWcrtqpAxbNbCnh3tbzy4EEi8TORoF5kWDB3IiEVVku5gD6VEw==
   dependencies:
     "@babel/core" "^7.2.2"
     babel-core "^6.26.3"
@@ -792,7 +792,7 @@
     debug "^3.1.0"
     ember-cli-htmlbars "^3.0.1"
     fs-extra "^7.0.0"
-    fs-tree-diff "0.5.7"
+    fs-tree-diff "git+https://github.com/ef4/fs-tree-diff#374ac822908b5bbc3c95710dea59cd46e33cd17f"
     jsdom "^12.0.0"
     lodash "^4.17.10"
     pkg-up "^2.0.0"
@@ -802,10 +802,10 @@
     typescript-memoize "^1.0.0-alpha.3"
     walk-sync "^1.1.3"
 
-"@embroider/core@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@embroider/core/-/core-0.0.6.tgz#e5034131236795ead005b9b7f52bda399cf2ea71"
-  integrity sha512-utdxr8v8eBihMU7n/Kw6xLvO0MuKoWvc8IbEVUYTl3yk7UgfI3oohAZHemzKzmUT3wHqNkTbrnknQNh84NnYrg==
+"@embroider/core@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@embroider/core/-/core-0.0.8.tgz#4f6b6cfd4bf8d095a137d3ad3dc99e21147bf7dd"
+  integrity sha512-RFi+L48lRdpuHOyf6Ox54vIsQe1hP2QsAVxtoNh3a30Fft+4Mv1ymovM7prsvyf4xK2jv8IyXwzF3y5R4hOEGQ==
   dependencies:
     assert-never "^1.1.0"
     broccoli-plugin "^1.3.0"
@@ -813,7 +813,7 @@
     debug "^3.1.0"
     fast-sourcemap-concat "^1.4.0"
     fs-extra "^7.0.1"
-    fs-tree-diff "0.5.7"
+    fs-tree-diff "git+https://github.com/ef4/fs-tree-diff#374ac822908b5bbc3c95710dea59cd46e33cd17f"
     handlebars "^4.0.11"
     js-string-escape "^1.0.1"
     jsdom "^12.0.0"
@@ -824,10 +824,10 @@
     typescript-memoize "^1.0.0-alpha.3"
     walk-sync "^1.1.3"
 
-"@embroider/webpack@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@embroider/webpack/-/webpack-0.0.6.tgz#99d293d42534091f61baa23d706a7b97e3483b08"
-  integrity sha512-cCP+NSwf/aOTQ9fU2K4RcD0c6ja8/AtlkiVMR1CHyT2vbHUuUUQjIUXLsDZbfxD3NsKFZwod7Q6sA8ZnW9cDMQ==
+"@embroider/webpack@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@embroider/webpack/-/webpack-0.0.8.tgz#23643126c67a2acf430fff633c62d7024ed59602"
+  integrity sha512-41mo8rQRFE0gdzM9JhsHTV//jgXWq0DwYyrj/yWu3kAdh9r/z0cZAPftmZaBjP9Viq3Icx0k+frtlfmOjlkzPQ==
   dependencies:
     babel-core "^6.26.3"
     babel-loader "7"
@@ -937,6 +937,11 @@
   version "9.6.42"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.42.tgz#96fd9c8cf15fbf2c16fe525fc2be97c49cdd0c2f"
   integrity sha512-SpeVQJFekfnEaZZO1yl4je/36upII36L7gOT4DBx51B1GeAB45mmDb3a5OBQB+ZeFxVVOP37r8Owsl940G/fBg==
+
+"@types/symlink-or-copy@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/symlink-or-copy/-/symlink-or-copy-1.2.0.tgz#4151a81b4052c80bc2becbae09f3a9ec010a9c7a"
+  integrity sha512-Lja2xYuuf2B3knEsga8ShbOdsfNOtzT73GyJmZyY7eGl2+ajOqrs8yM5ze0fsSoYwvA6bw7/Qr7OZ7PEEmYwWg==
 
 "@webassemblyjs/ast@1.8.3":
   version "1.8.3"
@@ -1666,9 +1671,9 @@ babel-plugin-ember-modules-api-polyfill@^2.6.0, babel-plugin-ember-modules-api-p
   dependencies:
     ember-rfc176-data "^0.3.7"
 
-"babel-plugin-ember-modules-api-polyfill@git+https://github.com/ember-cli/babel-plugin-ember-modules-api-polyfill#d0c7772bc9f995f83641a4292afd5e05e7e9bbba":
+"babel-plugin-ember-modules-api-polyfill@git+https://github.com/ember-cli/babel-plugin-ember-modules-api-polyfill.git#d0c7772bc9f995f83641a4292afd5e05e7e9bbba":
   version "2.6.0"
-  resolved "git+https://github.com/ember-cli/babel-plugin-ember-modules-api-polyfill#d0c7772bc9f995f83641a4292afd5e05e7e9bbba"
+  resolved "git+https://github.com/ember-cli/babel-plugin-ember-modules-api-polyfill.git#d0c7772bc9f995f83641a4292afd5e05e7e9bbba"
   dependencies:
     ember-rfc176-data "^0.3.6"
 
@@ -5056,16 +5061,6 @@ fs-minipass@^1.2.5:
   dependencies:
     minipass "^2.2.1"
 
-fs-tree-diff@0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.5.7.tgz#315e2b098d5fe7f622880ac965b1b051868ac871"
-  integrity sha512-dJwDX6NBH7IfdfFjZAdHCZ6fIKc8LwR7kzqUhYRFJuX4g9ctG/7cuqJuwegGQsyLEykp6Z4krq+yIFMQlt7d9Q==
-  dependencies:
-    heimdalljs-logger "^0.1.7"
-    object-assign "^4.1.0"
-    path-posix "^1.0.0"
-    symlink-or-copy "^1.1.8"
-
 fs-tree-diff@^0.5.2, fs-tree-diff@^0.5.3, fs-tree-diff@^0.5.4, fs-tree-diff@^0.5.6, fs-tree-diff@^0.5.7:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.5.9.tgz#a4ec6182c2f5bd80b9b83c8e23e4522e6f5fd946"
@@ -5081,6 +5076,16 @@ fs-tree-diff@^1.0.0, fs-tree-diff@^1.0.2:
   resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-1.0.2.tgz#0e2931733a85b55feb3472c0b89a20b0c03ac0de"
   integrity sha512-Zro2ACaPVDgVOx9+s5s5AfPlAD0kMJdbwGvTGF6KC1SjxjiGWxJvV4mUTDkFVSy3OUw2C/f1qpdjF81hGqSBAw==
   dependencies:
+    heimdalljs-logger "^0.1.7"
+    object-assign "^4.1.0"
+    path-posix "^1.0.0"
+    symlink-or-copy "^1.1.8"
+
+"fs-tree-diff@git+https://github.com/ef4/fs-tree-diff.git#374ac822908b5bbc3c95710dea59cd46e33cd17f":
+  version "1.0.2-custom.0"
+  resolved "git+https://github.com/ef4/fs-tree-diff.git#374ac822908b5bbc3c95710dea59cd46e33cd17f"
+  dependencies:
+    "@types/symlink-or-copy" "^1.2.0"
     heimdalljs-logger "^0.1.7"
     object-assign "^4.1.0"
     path-posix "^1.0.0"
