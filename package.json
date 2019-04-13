@@ -26,7 +26,7 @@
     "@embroider/compat": "^0.3.4",
     "@embroider/core": "^0.3.4",
     "@embroider/webpack": "^0.3.4",
-    "@neighborly/ui": "0.7.3",
+    "@neighborly/ui": "0.8.1",
     "babel-eslint": "^10.0.1",
     "broccoli-asset-rev": "^3.0.0",
     "ember-ajax": "^5.0.0",
