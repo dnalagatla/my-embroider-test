@@ -2,3 +2,8 @@
 
 {{@test}}
 some component
+
+{{#power-calendar selected=this.arrival onSelect=(action (mut this.arrival) value="date") as |calendar|}}
+  {{calendar.nav}}
+  {{calendar.days}}
+{{/power-calendar}}
