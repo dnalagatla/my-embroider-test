@@ -45,6 +45,7 @@
     "ember-source": "~3.9.1",
     "ember-welcome-page": "^4.0.0",
     "eslint-plugin-ember": "^6.3.0",
+    "ember-cli-fastboot": "https://github.com/ember-fastboot/ember-cli-fastboot.git",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0"
   },
